@@ -28,7 +28,6 @@ section {
 	padding: 3px 2px;
 	border-radius: 3px;
 	transition: 0.5s ease all;
-
 }
 .link a:hover {
 	background: black;
@@ -138,14 +137,20 @@ section {
 	margin-top: 15px;
 }
 .profile-box .social-links li {
-	width: 15px;
-	height: 15px;
+	width: 16px;
+	height: 16px;
 	background: #EFEFEF;
 	display: inline-block;
 	margin-right: 4px;
 	border-radius: 50%;
 	transition: 0.3s ease all;
 	transform: translateY(100px);
+	text-align: center;
+}
+.profile-box .social-links li a {
+	color: black;
+	position: relative;
+	top: -2px;
 }
 .profile-box .social-links li:nth-child(2){
 	transition-delay: 0.25s;
